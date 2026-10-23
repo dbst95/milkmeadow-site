@@ -26,12 +26,13 @@
 <body>
 
 <h1>Privacy Policy for Milk Meadow</h1>
-<p class="updated">Last updated: 28 August 2026</p>
+<p class="updated">Last updated: 22 October 2026</p>
 
 <p><strong>Milk Meadow's developer does not collect or have access to your pumping or health data.</strong></p>
 
-<p>Milk Meadow is a breast pump tracker that runs entirely on your iPhone. It has no
-accounts, no servers, no analytics, no advertising, and no third-party software
+<p>Milk Meadow is a breast pump tracker that saves records on your iPhone, with optional
+private iCloud sync. It has no developer-operated accounts or servers, no analytics,
+no advertising, and no third-party software
 development kits. This policy explains what that means in practice.</p>
 
 <h2>Information we collect</h2>
@@ -55,6 +56,19 @@ private database on your device. It is:</p>
 <p>We cannot see this data. Milk Meadow has no developer-operated server or account
 database. You can export your records at any time, regardless of Plus status.</p>
 
+<h2>Optional private iCloud sync</h2>
+<p>Sync is free and off by default. If you turn it on, Apple’s CloudKit service
+stores your records in your private iCloud database and syncs them with your
+other devices using the same Apple Account. This uses your iCloud storage.
+Milk Meadow’s developer cannot read that private database. Apple’s privacy
+policy and your iCloud account settings govern Apple’s service.</p>
+<p>You can keep using Milk Meadow locally without enabling sync. Changes to the
+sync switch apply after you close and reopen the app. Turning sync off keeps
+the local copy and does not delete previously uploaded records from iCloud.
+A safety copy made before the first sync migration stays on your device for
+recovery. Sync can be delayed by connectivity, available storage, and iCloud
+service conditions.</p>
+
 <h2>Purchases</h2>
 <p>If you choose Milk Meadow Plus, the purchase is processed by Apple through StoreKit.
 The app reads Apple's signed transaction on your device only to determine whether Plus is
@@ -63,8 +77,9 @@ of a purchase transaction. We do not operate a purchase server or receive those 
 
 <h2>Notifications</h2>
 <p>If you turn on reminders, Milk Meadow schedules <em>local</em> notifications through
-iOS. These are generated on your device and delivered by your device. No push
-server is involved and no information leaves your iPhone. Notification permission
+iOS. These are generated on your device and delivered by your device. Milk Meadow has no reminder push server. If you enable iCloud sync, Apple also
+uses silent background notifications to tell the app about changes in your private
+database; these are separate from reminder alerts. Notification permission
 is requested only when you switch a reminder on, and you can revoke it at any time
 in iOS Settings.</p>
 
